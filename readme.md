@@ -1,6 +1,6 @@
 # Lyrics Guessing Game
 
-#### Video Demo: <YOUR VIDEO URL>
+#### Video Demo: https://youtu.be/kXOHljfd1kQ
 
 #### Description:
 A lyrics guessing game that uses the Genius API to fetch
