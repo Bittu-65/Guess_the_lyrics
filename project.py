@@ -1,7 +1,8 @@
 import lyricsgenius
 import random
 
-genius = lyricsgenius.Genius("0-uwMECvoVbesrItH1bq_BBD9d378nL6kyHMcreDSTcKkWDEIQSSXw-Wdy_GV_uv")
+import os
+genius = lyricsgenius.Genius(os.environ.get("GENIUS_API_KEY"))
 
 def get_lyrics(song, artist):
     result = genius.search_song(song, artist)
